@@ -5,7 +5,7 @@ var util = require('util');
  * - the return 'callback' method signature is 'callback (error, data)', where 'data' is a JSON object.
 */
 
-testError // testing and error case
+var testError = require('doesnotexist'); // testing and error case
 
 /* 'getConfig' server side REST API method.
  * Trivial example of pulling in a shared config file.
